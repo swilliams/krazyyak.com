@@ -134,6 +134,11 @@ nav#nav {
 
 #nav ul > li > a:hover {
     color: #FF3400;
+	-moz-transition:    all 0.25s ease-in-out;
+	-o-transition:      all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	transition:         all 0.25s ease-in-out;
+    
 }
 
 .sameline {
@@ -160,7 +165,7 @@ header > .sameline {
 header h1 {
     color: #4e5d54;
     text-shadow: 1px 1px 1px #ccc;
-    font-family: 'Bevan', 'Vollkorn', Georgia, serif;
+    font-family: 'Bevan', Georgia, serif;
     font-weight: 200;
     letter-spacing: 0.05em;
     font-size: 54px;
