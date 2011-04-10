@@ -98,6 +98,7 @@ header#top {
 }
 
 nav#nav {
+    z-index: 5;
     background: rgba(61,43,36,0.92);
     font-family: Georgia, serif;
     border-bottom: 1px solid #1d1411;
@@ -160,6 +161,8 @@ header > .sameline {
     padding-top: 100px;
     width: 900px;
     margin: 0 auto;
+    height: 200px;
+    overflow: hidden;
 }
 
 header h1 {
@@ -190,7 +193,12 @@ header p {
 }
 
 .pic_container {
-    width: 300px;
+}
+
+.pic_container > img {
+    z-index: 1;
+    position: relative;
+    top: -40px;
 }
 
 section {
