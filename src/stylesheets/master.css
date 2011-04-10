@@ -264,7 +264,7 @@ section:hover p {
     box-shadow:         2px 2px 4px #666666;
 }
 
-#developer > h1 {
+#developer > h1, #social h1 {
     font-family: 'Cardo', Georgia, serif;
     font-weight: bold;
     font-size: 46px;
@@ -412,8 +412,50 @@ section#smaller_things > div > div {
     border: 8px solid #ccbbb1;
     padding: 1px;
     background: #rgba(61,43,36,1);
-    -webkit-box-shadow: 2px 2px 4px rgba(61,43,36,0.6);
+    -webkit-box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    -moz-box-shadow:    2px 2px 4px rgba(0,0,0,0.4);
+    box-shadow:         2px 2px 4px rgba(0,0,0,0.4);
 }
+
+#social > div {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#social > div > p {
+    width: 550px;
+    margin: 0 auto 20px;
+    font-size: 1.4em;
+}
+
+#networks {
+    overflow: auto;
+    padding-top: 5px;
+}
+
+#networks > div {
+    width: 150px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #b3bcb0;
+
+    -webkit-box-shadow: inset 0 0 8px #3c443a, 0 -1px 4px #fff;
+    -webkit-border-radius:  2px;
+}
+
+#networks > div > p {
+    color: #f1f2f0;
+    text-shadow: 0 -1px 0px #3c443a;
+    font-family: Lucida Grande,Helvetica, Arial, sans-serif;
+    font-size: 1.1em;
+}
+
+#networks > div:last-child {
+    margin-right: 0;
+}
+
 
 
 .ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
