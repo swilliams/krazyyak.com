@@ -319,6 +319,58 @@ span.push_blue {
     background: url('/images/pushpin_blue.png') top left no-repeat;
 }
 
+section#photo {
+    width: 100%;
+}
+
+#photo > div {
+    padding: 20px;
+    background: rgba(255,255,255,0.7);
+    border-top: 10px solid #ddd;
+    border-bottom: 10px solid #ddd;
+    -webkit-box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    -moz-box-shadow:    0 0 5px rgba(0,0,0,0.4);
+    box-shadow:         0 0 5px rgba(0,0,0,0.4);
+}
+
+#photo h1 {
+    text-align: center;
+}
+
+#photo h2 {
+    text-align: center;
+    color: #bbb;
+    font-size: 20px;
+    text-shadow: 0 -1px 1px rgba(0,0,0,0.5);
+}
+
+#photo_samples {
+    width: 720px;
+    margin: 20px auto;
+    padding: 5px 0;
+}
+
+#photo_samples > * {
+    display: block;
+    height: 110px;
+    overflow: hidden;
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+    -moz-box-shadow:    2px 2px 5px rgba(0,0,0,0.4);
+    box-shadow:         2px 2px 5px rgba(0,0,0,0.4);
+}
+
+#photo_samples img {
+    padding: 5px;
+    -webkit-border-radius:  2px;
+    -moz-border-radius:     2px;
+    border-radius:          2px;
+}
+
+#photo p {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 section#smaller_things > div {
@@ -339,7 +391,7 @@ section#smaller_things > div > div {
     padding: 20px;
 }
 
-#smaller_things h1 {
+#photo h1, #smaller_things h1 {
     font-family: 'Cardo', Georgia, serif;
     font-size: 40px;
     font-weight: bold;
