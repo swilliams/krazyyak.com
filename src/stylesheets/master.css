@@ -264,8 +264,60 @@ section:hover p {
     box-shadow:         2px 2px 4px #666666;
 }
 
+#developer > h1 {
+    font-family: 'Cardo', Georgia, serif;
+    font-weight: bold;
+    font-size: 46px;
+    text-align: center;
+    color: #93a293;
+    text-shadow: 0 -1px 1px #4e5d54;
+}
 
+#developer > .sameline { 
+    width: 740px;
+    margin: 0 auto;
+    padding: 10px;
+}
 
+#developer > .sameline > div:first-child {
+    margin-right: 20px;
+}
+
+#developer > .sameline > div {
+    width: 300px;
+    background: #f2f2f2 url('/images/paper.jpg') top left;
+    padding: 25px 30px 15px;
+    position: relative;
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    transform: rotate(2deg);
+    -webkit-box-shadow: 0 2px 4px rgba(0,0,0,0.27);
+    -moz-box-shadow:    0 2px 4px rgba(0,0,0,0.27);
+    box-shadow:         0 2px 4px rgba(0,0,0,0.27);
+}
+
+#developer > .sameline > div:last-child {
+    -webkit-transform: rotate(-1deg);
+    -moz-transform: rotate(-1deg);
+    transform: rotate(-1deg);
+}
+
+span.push {
+    display: block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 150px;
+    top: 0px;
+}
+
+span.push_red {
+    background: url('/images/pushpin_red.png') top left no-repeat;
+}
+
+span.push_blue {
+    background: url('/images/pushpin_blue.png') top left no-repeat;
+}
 
 
 
