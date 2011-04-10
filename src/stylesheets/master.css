@@ -127,6 +127,10 @@ nav#nav {
     letter-spacing: 1px;
     border-left: 1px solid #b18b7b;
     text-shadow: 0px -1px 0px rgba(0,0,0,.8);
+	-moz-transition:    all 0.25s ease-in-out;
+	-o-transition:      all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	transition:         all 0.25s ease-in-out;
 }
 
 #nav ul > li > a.selected:before {
@@ -190,6 +194,7 @@ header p {
     letter-spacing: 0.05em; 
     margin-top: 14px;
     padding-bottom: 30px;
+    font-weight: bold;
 }
 
 .pic_container {
@@ -205,7 +210,59 @@ section {
     padding-top: 50px;
 }
 
+section p {
+    font-family: Georgia, serif;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    margin: 10px auto;
+    color: #777;
+    text-shadow: 0px 1px 1px #fff;
+	-moz-transition:    all 0.25s ease-in-out;
+	-o-transition:      all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	transition:         all 0.25s ease-in-out;
+}
 
+section:hover p {
+    color: #555;
+	-moz-transition:    all 0.25s ease-in-out;
+	-o-transition:      all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	transition:         all 0.25s ease-in-out;
+}
+
+#shootsy > div{
+    background: #f0e9e6 url('/images/leaves.png') top left;
+    padding: 20px;
+    border-top: 5px solid #d1bab1;
+    border-bottom: 5px solid #d1bab1;
+	-webkit-box-shadow: 0px 0px 8px #32231e;
+	-moz-box-shadow:    0px 0px 8px #32231e;
+	box-shadow:         0px 0px 8px #32231e;
+}
+
+#shootsy > div .sameline {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#shootsy .sameline > div:first-child {
+    width: 600px;
+}
+
+#shootsy h2 {
+    font-size: 1.3em;
+    font-style: italic;
+    color: #32231e;
+    text-shadow: 0 1px 1px #fff;
+}
+
+#shootsy .slideshow img {
+    border: 10px solid #f2f2f2;
+    -webkit-box-shadow: 2px 2px 4px #666666;
+    -moz-box-shadow:    2px 2px 4px #666666;
+    box-shadow:         2px 2px 4px #666666;
+}
 
 
 
