@@ -100,7 +100,7 @@ header#top {
 nav#nav {
     z-index: 5;
     background: rgba(61,43,36,0.92);
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Lucida Grande, Arial, sans-serif;
     border-bottom: 1px solid #1d1411;
 	-webkit-box-shadow: 0px 3px 5px #281c17;
 	-moz-box-shadow:    0px 3px 5px #281c17;
@@ -495,8 +495,9 @@ section#smaller_things > div > div {
 #networks > div > p {
     color: #f1f2f0;
     text-shadow: 0 1px 0px #3c443a;
-    font-family: Lucida Grande,Helvetica, Arial, sans-serif;
+    font-family: Lucida Grande, Arial, sans-serif;
     font-size: 1.1em;
+    font-weight: bold;
 }
 
 #networks > div > a {
