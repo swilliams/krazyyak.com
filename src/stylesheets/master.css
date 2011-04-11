@@ -242,8 +242,9 @@ section:hover p {
 }
 
 #shootsy > div .sameline {
-    width: 900px;
+    width: 920px;
     margin: 0 auto;
+    padding-right: 5px;
 }
 
 #shootsy .sameline > div:first-child {
@@ -364,6 +365,23 @@ section#photo {
     -webkit-border-radius:  2px;
     -moz-border-radius:     2px;
     border-radius:          2px;
+    -webkit-opacity:    0.7;
+    -moz-opacity:       0.7;
+    opacity:            0.7;
+    -moz-transition:    all 0.25s ease-in-out;
+	-o-transition:      all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	transition:         all 0.25s ease-in-out;
+}
+
+#photo_samples img:hover {
+    -webkit-opacity:    1;
+    -moz-opacity:       1;
+    opacity:            1;
+    -moz-transition:    all 0.25s ease-in-out;
+	-o-transition:      all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	transition:         all 0.25s ease-in-out;
 }
 
 #photo p {
