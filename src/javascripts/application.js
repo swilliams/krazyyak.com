@@ -27,13 +27,6 @@ $(function() {
         return false;
     });
 
-    // preload images
-    var images = 4;
-    for (var i = 1; i < images + 1; i++) {
-        var img = new Image();
-        img.src = '/images/photo-' + i + '.jpg';
-    }
-
     $(window).scroll(function(data) {
         var pos = $(window).scrollTop();
         if (pos === 0 || !doScrollEvent) {
@@ -48,4 +41,5 @@ $(function() {
         }
     });
 
+    $('#photo_samples > a').fancyZoom();
 });
