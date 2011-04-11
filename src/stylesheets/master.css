@@ -137,7 +137,7 @@ nav#nav {
     content: "★ "
 }
 
-#nav ul > li > a:hover {
+#nav a:hover {
     color: #FF3400;
 	-moz-transition:    all 0.25s ease-in-out;
 	-o-transition:      all 0.25s ease-in-out;
@@ -428,6 +428,10 @@ section#smaller_things > div > div {
     font-size: 1.4em;
 }
 
+#social > div > span {
+    color: #888;
+}
+
 #networks {
     overflow: auto;
     padding-top: 5px;
@@ -477,17 +481,61 @@ footer {
     margin-top: 40px;
     width: 100%;
     height: 200px;
-    background: rgba(61,43,36,0.92);
-    border-top: 1px solid #1d1411;
+    background: rgba(61,43,36,0.92) url('/images/circles.png') top left;
+    border-top: 10px solid #b89486;
     padding-top: 20px;
-    color: #e4d6d1;
+    color: #be9d91;
+    font-family: 'Lucida Grande', Heletica, Arial, sans-serif;
 
-    -webkit-box-shadow: 0 -3px 5px #281c17;
+    -webkit-box-shadow: 0 -2px 5px #281c17;
+    -moz-box-shadow:    0 -2px 5px #281c17;
+    box-shadow:         0 -2px 5px #281c17;
+    text-shadow: 0px -1px 1px rgba(0,0,0,0.7);
 }
 
-footer > div {
-    margin-left: 20px;
+footer > .sameline {
+    width: 800px;
+    margin: 0 auto;
 }
+
+footer h1 {
+    text-align: center;
+    font-size: 1.3em;
+}
+
+footer ul {
+    width: 420px;
+}
+
+footer li {
+    margin: 5px 0;
+    list-style-image: url('/images/arrow.png');
+    float: left;
+    width: 200px;
+}
+
+footer .copyright {
+    font-size: 0.9em;
+    line-height: 1.5em;
+
+}
+
+footer a, footer a:visited {
+    color: #ff9377;
+	-moz-transition:    all 0.25s ease-in-out;
+	-o-transition:      all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	transition:         all 0.25s ease-in-out;
+}
+
+footer a:hover {
+    color: #FF3400;
+	-moz-transition:    all 0.25s ease-in-out;
+	-o-transition:      all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	transition:         all 0.25s ease-in-out;
+}
+
 
 .ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr; }
 .hidden { display: none; visibility: hidden; }
