@@ -1,0 +1,27 @@
+nav#nav {
+    background: #4a3a32 !important;
+}
+
+header#top {
+    background: #93a394 !important;
+}
+
+#shootsy .sameline > div:first-child {
+    width: 500px !important;
+}
+
+#developer .sameline > div {
+    width: 280px !important;
+}
+
+#smaller_things > div {
+    background: #93a394 !important;
+}
+
+#smaller_things > div > div {
+    background: #f2f2f2 !important;
+}
+
+footer {
+    background: #4a3a32 !important;
+}
