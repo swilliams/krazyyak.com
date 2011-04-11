@@ -42,9 +42,9 @@ $(function() {
         var results = $.grep(navElements, function(n, i) {
             return pos > n.offset + 0;
         });
-        var selected = results[results.length-1];
+        var selected = results[results.length-1].link;
         if (selected != currentNav) {
-            changeNav(selected.link);
+            changeNav(selected);
         }
     });
 

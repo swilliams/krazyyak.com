@@ -348,7 +348,7 @@ section#photo {
 #photo_samples {
     width: 720px;
     margin: 20px auto;
-    padding: 5px 0;
+    padding: 5px 0 5px 2px;
 }
 
 #photo_samples > * {
