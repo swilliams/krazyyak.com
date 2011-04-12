@@ -213,7 +213,7 @@ section {
 section p {
     font-family: Georgia, serif;
     font-size: 1.2em;
-    line-height: 1.3em;
+    line-height: 1.4em;
     margin: 10px auto;
     color: #555;
     text-shadow: 0px 1px 1px #fff;
@@ -516,7 +516,7 @@ section#smaller_things > div > div {
 
 #social > div > span {
     color: #888;
-    margin-left: 180px;
+    margin-left: 80px;
 }
 
 #network_wrapper {
