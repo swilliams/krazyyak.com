@@ -303,6 +303,11 @@ section:hover p {
     transform: rotate(-1deg);
 }
 
+.right {
+    float: right;
+    margin-left: 10px;
+}
+
 span.push {
     display: block;
     width: 40px;
@@ -461,6 +466,12 @@ section#smaller_things > div > div {
 
 #social > div > span {
     color: #888;
+    margin-left: 180px;
+}
+
+#network_wrapper {
+    width: 600px;
+    margin: 0 auto;
 }
 
 #networks {
@@ -470,8 +481,6 @@ section#smaller_things > div > div {
 
 #networks > div {
     width: 150px;
-    float: left;
-    margin-right: 20px;
     margin-bottom: 20px;
     padding: 10px;
     background: #b3bcb0;

@@ -42,4 +42,6 @@ $(function() {
     });
 
     $('#photo_samples > a').fancyZoom();
+
+    $('#networks').masonry({ columnWidth: 200 });
 });
