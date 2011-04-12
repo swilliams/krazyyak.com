@@ -44,4 +44,14 @@ $(function() {
     $('#photo_samples > a').fancyZoom();
 
     $('#networks').masonry({ columnWidth: 200 });
+
+    $('#shootsy .controls > a').click(function() {
+        var offset = 330,
+            link = $(this),
+            mult = link.index() * offset;
+        link.siblings('a').removeClass('selected');
+        link.addClass('selected');
+        $('#slideshow_images').animate({scrollLeft: mult}, 330);
+        return false;
+    });
 });

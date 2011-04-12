@@ -248,7 +248,7 @@ section:hover p {
 }
 
 #shootsy .sameline > div:first-child {
-    width: 600px;
+    width: 575px;
 }
 
 #shootsy h2 {
@@ -258,11 +258,61 @@ section:hover p {
     text-shadow: 0 1px 1px #fff;
 }
 
-#shootsy .slideshow img {
+#slideshow_images {
+    width: 324px;
+    overflow: hidden;
+}
+
+#slideshow_images > div {
+    width: 1400px;
+    overflow: hidden;
+    padding-bottom: 6px;
+}
+
+#slideshow_images img {
+    float: left;
+    margin-right: 10px;
+}
+
+#slideshow_images img {
     border: 10px solid #f2f2f2;
     -webkit-box-shadow: 2px 2px 4px #666666;
     -moz-box-shadow:    2px 2px 4px #666666;
     box-shadow:         2px 2px 4px #666666;
+}
+
+#shootsy .slideshow .controls {
+    width: 150px;
+    text-align: center;
+    margin: 10px auto 0;
+}
+
+#shootsy .slideshow .controls .selected > img, #shootsy .slideshow .controls .selected > img:hover {
+    opacity: 1;
+}
+
+#shootsy .slideshow .controls a {
+    margin-left: 10px;
+}
+
+#shootsy .slideshow .controls a:first-child {
+    margin-left: 0;
+}
+
+#shootsy .slideshow .controls img {
+    opacity: 0.5;
+    -moz-transition:    all 0.25s ease-in-out;
+	-o-transition:      all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	transition:         all 0.25s ease-in-out;
+}
+
+#shootsy .slideshow .controls img:hover {
+    opacity: 0.75;
+    -moz-transition:    all 0.25s ease-in-out;
+	-o-transition:      all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+	transition:         all 0.25s ease-in-out;
 }
 
 #developer > h1, #social h1 {
@@ -470,7 +520,7 @@ section#smaller_things > div > div {
 }
 
 #network_wrapper {
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
 }
 
